@@ -17,7 +17,7 @@ const Sidebar = () => {
                 <ul>
                     <li><Link to="/search">جستجو<span className='fa fa-search'></span></Link></li>
                     <li><Link to="/my-adv">آگهی های من<span className='fa fa-file-text-o'></span></Link></li>
-                    <li><Link to="/agents">نماینده</Link></li>
+                    <li><Link to="/agents">نماینده<span className='fa fa-users'></span></Link></li>
                     <li><Link to="/profile">پروفایل</Link></li>
                     <li><Link to="/saved">ملک های ذخیره شده</Link></li>
                     <li><Link to="/recent-search">جستجوهای اخیر</Link></li>

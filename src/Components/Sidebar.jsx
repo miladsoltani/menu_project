@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import pic from '../images/pic.jpg'
 const Sidebar = () => {
     return (
         <div>
             <nav>
-                <img src="" alt="" />
+                <img src={pic} alt="amlak pic" />
                 <h1>املاک هاشمی نسب</h1>
                 <div>
                     <span>1</span>

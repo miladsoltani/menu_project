@@ -6,9 +6,11 @@ import Profile from './Components/Profile';
 import RecentSearch from './Components/RecentSearch';
 import Saved from './Components/Saved';
 import Search from './Components/Search';
+import Sidebar from './Components/Sidebar';
 const App = () => {
   return (
     <div>
+      <Sidebar/>
       <Routes>
         <Route path='/agents' element={<Agents/>}/>
         <Route path='/my-adv' element={<Myadv/>}/>

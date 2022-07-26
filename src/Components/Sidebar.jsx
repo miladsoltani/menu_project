@@ -20,7 +20,7 @@ const Sidebar = () => {
                     <li><Link to="/agents">نماینده<span className='fa fa-users'></span></Link></li>
                     <li><Link to="/profile">پروفایل<span className='fa fa-user-o'></span></Link></li>
                     <li><Link to="/saved">ملک های ذخیره شده<span className='fa fa-bookmark-o'></span></Link></li>
-                    <li><Link to="/recent-search">جستجوهای اخیر</Link></li>
+                    <li><Link to="/recent-search">جستجوهای اخیر<span className='fa fa-book'></span></Link></li>
                 </ul>
             </nav>
         </div>

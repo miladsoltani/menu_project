@@ -7,9 +7,10 @@ import RecentSearch from './Components/RecentSearch';
 import Saved from './Components/Saved';
 import Search from './Components/Search';
 import Sidebar from './Components/Sidebar';
+import './App.css'
 const App = () => {
   return (
-    <div>
+    <div className='main__class' dir='rtl'>
       <Sidebar/>
       <Routes>
         <Route path='/agents' element={<Agents/>}/>

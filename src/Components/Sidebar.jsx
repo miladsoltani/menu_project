@@ -8,11 +8,11 @@ const Sidebar = () => {
                 <img src={pic} alt="amlak pic" />
                 <h1>املاک هاشمی نسب</h1>
                 <div>
-                    <span>1</span>
-                    <span>1</span>
-                    <span>1</span>
-                    <span>1</span>
-                    <span>1</span>
+                    <span className='fa fa-star'></span>
+                    <span className='fa fa-star'></span>
+                    <span className='fa fa-star'></span>
+                    <span className='fa fa-star-o'></span>
+                    <span className='fa fa-star-o'></span>
                 </div>
                 <ul>
                     <li><Link to="/search">جستجو</Link></li>

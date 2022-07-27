@@ -21,7 +21,7 @@
 .Container li {
     list-style: none;
     border-bottom: 2px solid white;
-    padding: 1rem 4rem .5rem ;
+    padding: 1rem 4rem 0.1rem ;
     text-align: justify;
 }
 
@@ -34,7 +34,7 @@
     color: white;
     font-size: large;
     font-weight: bold;
-    padding: 9px;
+    padding: 11px;
 }
 
 .Container div {

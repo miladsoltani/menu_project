@@ -6,7 +6,7 @@ import Profile from './Components/Profile';
 import RecentSearch from './Components/RecentSearch';
 import Saved from './Components/Saved';
 import Search from './Components/Search';
-import Sidebar from './Components/Sidebar';
+import Sidebar from './Components/Sidebar/Sidebar';
 import './App.css'
 const App = () => {
   return (

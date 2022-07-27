@@ -1,0 +1,47 @@
+.Container {
+    background-color: rgb(14, 185, 185);
+    text-align: center;
+    height: 100vh;
+}
+
+.Container img {
+    width: 100%;
+    border-radius: 100%;
+    margin-top: -8rem;
+}
+
+.Container h1 {
+    padding: 0 25px;
+}
+
+.Container hr {
+    margin: 0 25px;
+}
+
+.Container li {
+    list-style: none;
+    border-bottom: 2px solid white;
+    padding: 2rem 0 .5rem;
+}
+
+.Container li:last-child {
+    margin-bottom: 3rem;
+}
+
+.Container a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.Container div {
+    padding: 1rem 0 0;
+}
+
+.Container div span {
+    color: white;
+}
+
+#fill{
+    color: yellow;
+}

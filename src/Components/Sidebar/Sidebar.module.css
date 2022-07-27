@@ -21,7 +21,8 @@
 .Container li {
     list-style: none;
     border-bottom: 2px solid white;
-    padding: 2rem 0 .5rem;
+    padding: 1rem 4rem .5rem ;
+    text-align: justify;
 }
 
 .Container li:last-child {
@@ -32,6 +33,8 @@
     text-decoration: none;
     color: white;
     font-size: large;
+    font-weight: bold;
+    padding: 9px;
 }
 
 .Container div {

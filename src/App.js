@@ -12,14 +12,17 @@ const App = () => {
   return (
     <div className='main__class' dir='rtl'>
       <Sidebar/>
-      <Routes>
-        <Route path='/agents' element={<Agents/>}/>
-        <Route path='/my-adv' element={<Myadv/>}/>
-        <Route path='/profile' element={<Profile/>}/>
-        <Route path='/recent-search' element={<RecentSearch/>}/>
-        <Route path='/saved' element={<Saved/>}/>
-        <Route path='/search' element={<Search/>}/>
-      </Routes>
+      <div style={{'margin':'auto'}}>
+        <Routes>
+          <Route path='/agents' element={<Agents/>}/>
+          <Route path='/my-adv' element={<Myadv/>}/>
+          <Route path='/profile' element={<Profile/>}/>
+          <Route path='/recent-search' element={<RecentSearch/>}/>
+          <Route path='/saved' element={<Saved/>}/>
+          <Route path='/search' element={<Search/>}/>
+        </Routes>
+      </div>
+
     </div>
   );
 };

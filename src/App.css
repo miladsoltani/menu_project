@@ -1,3 +1,9 @@
 .main__class {
     display: flex;
 }
+
+@media (max-width:1000px) {
+    .main__class {
+        flex-direction: column;
+    }
+}

@@ -48,3 +48,41 @@
 #fill{
     color: yellow;
 }
+
+/* .Container a:focus {
+    color: red;
+} */
+
+/* responsive less 1000px */
+
+@media (max-width:1000px) {
+    .Container {
+        height: auto;
+    }
+    .Container img,
+    .Container h1,
+    .Container hr,
+    .Container span,
+    .Container li:last-child,
+    .Container li:nth-child(5) {
+        display: none;
+    }
+    .Container nav {
+        display: flex;
+    }
+
+    .Container ul {
+        display: flex;
+        margin: auto;
+    }
+
+    .Container li {
+        border-bottom: none;
+        padding: 5px;
+    }
+
+    .Container a::before {
+        display: block;
+        text-align: center;
+    }
+}

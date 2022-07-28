@@ -17,24 +17,36 @@ const Sidebar = () => {
                     <span className='fa fa-star' id={styles.fill}></span>
                 </div>
                 <ul>
-                    <li><NavLink style={({isActive})=>{
+                    <li><NavLink 
+                    style={({isActive})=>{
                         return {color:isActive ? 'black' : 'white' , backgroundColor:isActive ? 'white' : 'transparent' , borderRadius:isActive? '0px 50px 50px 0':''}
-                    }} to="/search" className='fa fa-search'> جستجو</NavLink></li>
-                    <li><NavLink style={({isActive})=>{
+                    }} 
+                    to="/search" className='fa fa-search'> جستجو</NavLink></li>
+                    <li><NavLink 
+                    style={({isActive})=>{
                         return {color:isActive ? 'black' : 'white' , backgroundColor:isActive ? 'white' : 'transparent' , borderRadius:isActive? '0px 50px 50px 0':''}
-                    }} to="/my-adv" className='fa fa-file-text-o'> آگهی های من</NavLink></li>
-                    <li><NavLink style={({isActive})=>{
+                    }} 
+                    to="/my-adv" className='fa fa-file-text-o'> آگهی های من</NavLink></li>
+                    <li><NavLink 
+                    style={({isActive})=>{
                         return {color:isActive ? 'black' : 'white' , backgroundColor:isActive ? 'white' : 'transparent' , borderRadius:isActive? '0px 50px 50px 0':''}
-                    }} to="/agents" className='fa fa-users'> نماینده</NavLink></li>
-                    <li><NavLink style={({isActive})=>{
+                    }} 
+                    to="/agents" className='fa fa-users'> نماینده</NavLink></li>
+                    <li><NavLink 
+                    style={({isActive})=>{
                         return {color:isActive ? 'black' : 'white' , backgroundColor:isActive ? 'white' : 'transparent' , borderRadius:isActive? '0px 50px 50px 0':''}
-                    }} to="/profile" className='fa fa-user-o'> پروفایل</NavLink></li>
-                    <li><NavLink style={({isActive})=>{
+                    }} 
+                    to="/profile" className='fa fa-user-o'> پروفایل</NavLink></li>
+                    <li><NavLink 
+                    style={({isActive})=>{
                         return {color:isActive ? 'black' : 'white' , backgroundColor:isActive ? 'white' : 'transparent' , borderRadius:isActive? '0px 50px 50px 0':''}
-                    }} to="/saved" className='fa fa-bookmark-o'> ملک های ذخیره شده</NavLink></li>
-                    <li><NavLink style={({isActive})=>{
+                    }} 
+                    to="/saved" className='fa fa-bookmark-o'> ملک های ذخیره شده</NavLink></li>
+                    <li><NavLink 
+                    style={({isActive})=>{
                         return {color:isActive ? 'black' : 'white' , backgroundColor:isActive ? 'white' : 'transparent' , borderRadius:isActive? '0px 50px 50px 0':''}
-                    }} to="/recent-search" className='fa fa-book'> جستجوهای اخیر</NavLink></li>
+                    }} 
+                    to="/recent-search" className='fa fa-book'> جستجوهای اخیر</NavLink></li>
                 </ul>
             </nav>
         </div>

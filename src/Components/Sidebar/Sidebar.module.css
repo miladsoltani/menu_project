@@ -1,3 +1,10 @@
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
 .Container {
     background-color: rgb(14, 185, 185);
     text-align: center;
@@ -19,7 +26,6 @@
 }
 
 .Container li {
-    list-style: none;
     border-bottom: 2px solid white;
     padding: 1rem 4rem 0.1rem ;
     text-align: justify;
@@ -30,7 +36,6 @@
 }
 
 .Container a {
-    text-decoration: none;
     color: white;
     font-size: large;
     font-weight: bold;
@@ -49,17 +54,20 @@
     color: yellow;
 }
 
-/* .Container a:focus {
-    color: red;
-} */
+.Responsive {
+    display: none;
+}
+
+
 
 /* responsive less 1000px */
 
 @media (max-width:1000px) {
     .Container {
-        height: auto;
+        /* height: auto; */
+        display: none;
     }
-    .Container img,
+    /* .Container img,
     .Container h1,
     .Container hr,
     .Container span,
@@ -84,5 +92,29 @@
     .Container a::before {
         display: block;
         text-align: center;
+        padding-bottom: 10px;
+    } */
+
+    
+    .Responsive {
+        display: block;
+        background-color: aqua;
     }
+
+    .Responsive ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Responsive a {
+        font-size: large;
+        font-weight: bold;
+        padding: 11px;
+    }
+
+    .Responsive a::before {
+        display: block;
+        text-align: center;
+        padding-bottom: 10px;
+    } 
 }

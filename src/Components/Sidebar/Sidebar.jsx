@@ -56,22 +56,22 @@ const Sidebar = () => {
                     <ul>
                         <li><NavLink 
                         style={({isActive})=>{
-                            return {color:isActive ? 'orange' : 'white'}
+                            return {fontSize:isActive ? 'small' : '' , backgroundColor:isActive ? 'orange' : '' , borderRadius:isActive ? '50%' : '' , border:isActive ? '5px solid darkgray' : ''}
                         }} 
                         to="/search" className='fa fa-search'> جستجو</NavLink></li>
                         <li><NavLink 
                         style={({isActive})=>{
-                            return {color:isActive ? 'orange' : 'white'}
+                            return {fontSize:isActive ? 'small' : '' , backgroundColor:isActive ? 'orange' : '' , borderRadius:isActive ? '50%' : '' , border:isActive ? '5px solid darkgray' : ''}
                         }} 
                         to="/my-adv" className='fa fa-file-text-o'> آگهی های من</NavLink></li>
                         <li><NavLink 
                         style={({isActive})=>{
-                            return {color:isActive ? 'orange' : 'white'}
+                            return {fontSize:isActive ? 'small' : '' , backgroundColor:isActive ? 'orange' : '' , borderRadius:isActive ? '50%' : '' , border:isActive ? '5px solid darkgray' : ''}
                         }} 
                         to="/agents" className='fa fa-users'> نماینده</NavLink></li>
                         <li><NavLink 
                         style={({isActive})=>{
-                            return {color:isActive ? 'orange' : 'white'}
+                            return {fontSize:isActive ? 'small' : '' , backgroundColor:isActive ? 'orange' : '' , borderRadius:isActive ? '50%' : '' , border:isActive ? '5px solid darkgray' : ''}
                         }} 
                         to="/profile" className='fa fa-user-o'> پروفایل</NavLink></li>
                     </ul>
@@ -84,7 +84,3 @@ const Sidebar = () => {
 export default Sidebar;
 
 
-
-// padding: 1rem 0.5rem 1rem 7.5rem;
-    // margin: 0rem 2.5rem 0rem 0.5rem;
-    // border-radius: 0px 50px 50px 0;

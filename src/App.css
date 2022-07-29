@@ -1,9 +1,11 @@
 .main__class {
     display: flex;
+    background-color: darkgrey;
 }
 
 @media (max-width:1000px) {
     .main__class {
         flex-direction: column;
+        height: 100vh;
     }
 }
